@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-learn';
-}
+
+  value1: string = "默认值";
+  value2: string = "pink";
+  value3: Array<string> = ['中国', '美国', '俄罗斯', '欧盟'];
+
+  doit1(): void {
+
+    console.log('你点击了我~');
+    this.value2 = 'yellow';
+
+  }
+
+};

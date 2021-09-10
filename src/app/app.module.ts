@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
  * 查看的时候，放开需要的部分就可以了
  */
 
-import { AppComponent } from './pages/basic/app.component';
+import { AppComponent } from './pages/basic/app.component'; // 基础使用
 
 @NgModule({
   declarations: [
@@ -17,4 +17,4 @@ import { AppComponent } from './pages/basic/app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { };

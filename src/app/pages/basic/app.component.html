@@ -1,3 +1,30 @@
+<!-- css使用 -->
+<span>
+  红色的字
+</span>
 
 <style>
+  /* 通过 [_ngcontent-sgc-c11] 添加属性选择器的方式，相当于给了css一个作用范围 */
+  span {
+    color: red;
+  }
 </style>
+
+<br />
+
+<!-- 单向绑定 -->
+{{value1}}
+
+<!-- 属性绑定 -->
+<div [style.color]='value2' [id]='value1'>
+  这是一段文字~
+</div>
+
+<!-- 循环显示 -->
+<span *ngFor='let item of value3'>【{{item}}】</span>
+
+<br />
+
+<!-- 交互事件 -->
+<button (click)='doit1()'>点击我</button>
+

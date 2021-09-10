@@ -1,5 +1,5 @@
 {
-  "name": "angular-learn",
+  "name": "angular2-learn",
   "version": "0.1.0",
   "description": "angular2+学习代码笔记",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agile-contrib/angular-learn.git"
+    "url": "git+https://github.com/agile-contrib/angular2-learn.git"
   },
   "dependencies": {
     "@angular/common": "~12.2.0",
@@ -30,7 +30,7 @@
   "author": "你好2007",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agile-contrib/angular-learn/issues"
+    "url": "https://github.com/agile-contrib/angular2-learn/issues"
   },
-  "homepage": "https://github.com/agile-contrib/angular-learn#readme"
+  "homepage": "https://github.com/agile-contrib/angular2-learn#readme"
 }
